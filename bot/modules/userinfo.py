@@ -8,7 +8,6 @@ from telegram.utils.helpers import escape_markdown
 
 import bot.modules.sql.userinfo_sql as sql
 from bot import dispatcher, OWNER_ID, LOGGER, DEV_USERS
-from bot.modules.disable import DisableAbleCommandHandler
 from bot.modules.helper_funcs.extraction import extract_user
 
 
